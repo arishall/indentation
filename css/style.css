@@ -1,0 +1,155 @@
+.page {
+    margin: 0;
+}
+
+
+ul, ol {
+    margin: 0;
+    padding-bottom: 25px;
+}
+
+/* Обнуление margin у загаловков */
+h1, h2, h3, p, figure {
+    margin: 0;
+}
+
+h1, h2, h3 {
+    text-align: left;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    /* height: auto; */
+}
+
+/* Параметры для загаловкокв h1 */
+.article__heading_level_1 {
+    font: 900 60px/72px Roboto;
+    margin: 0 0 30px;
+}
+
+/* Параметры для загаловкокв h2 */
+.article__heading_level_2 {
+    font: 700 44px/52.8px Roboto;
+    margin-bottom: 20px;
+}
+
+/* Параметры для загаловкокв h3 */
+.article__heading_level_3 {
+    font: 900 36px/43.2px Roboto;
+    margin-bottom: 30px;
+}
+
+.article__paragraph {
+    font: 400 22px/24px Roboto;
+}
+
+.article__paragraph_grey {
+    color: #5E5E5E;
+    padding: 15px 30px;
+}
+
+section figure {
+    border: 1px solid #000000;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Паратметры для блоков "Содержание" и "Итоги" */
+.section__nav {
+    background-color: #F1F1F1;
+    border-radius: 15px;
+    margin-left: -30px;
+    margin-right: -30px;
+    padding-left: 45px;
+    padding-top: 25px;
+}
+
+.article__list {
+    color: #02535F;
+    
+}
+
+section p {
+    margin-bottom: 30px;
+}
+
+section img {
+    margin-bottom: 30px;
+}
+
+section img:last-child {
+    margin-bottom: 0;
+}
+
+
+/* Блок с обтеканием текста */
+.group3__img_left {
+    width: 52%;
+}
+
+.group3__paragraph_left {
+    margin-bottom: 30px;
+}
+
+.group3__paragraph_left:last-child {
+    margin-bottom: 0;
+}
+
+.group3__paragraph_right:last-child {
+    margin-bottom: 0;
+}
+
+.group3__wrapper-top {
+    max-width: 44%;
+    float: right;
+    margin-left: 40px;
+}
+
+.group3__wrapper_bottom {
+    max-width: 44%;
+    float: left;
+    margin-right: 40px;
+}
+
+.group3__img_right {
+    width: 52%;
+}
+
+.group3__paragraph_right {
+    margin-bottom: 30px;
+    /* max-width: 50%;
+    float: left; */
+}
+
+.article__image {
+    width: 100%;
+    margin-bottom: 0;
+}
+/* Стиль для второго ненумированного списка */
+.article__list_dash {
+    list-style: none;
+    padding-left: 1px;
+    padding-bottom: 29px;
+}
+
+.article__list-item {
+    margin-bottom: 10px;
+}
+
+.article__list-item:last-child {
+    margin-bottom: 0;
+}
+
+.article__list-item_dash:before {
+    content:  "—";
+    position: relative;
+    left:     -5px;
+}
+
+.article__paragraph_padding {
+    margin: 0;
+    padding-bottom: 22px;
+}
